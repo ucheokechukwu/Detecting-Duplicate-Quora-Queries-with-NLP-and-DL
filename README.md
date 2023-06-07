@@ -31,11 +31,7 @@ The strategy was to start with a simple 3-layer, 4-hidden node model and add com
 ## Results
 The best performance was from Model 4 shown above, with a testing score of 0.84. Models 1 & 2 performed at the same level as the Machine Learning models. Model 3 overfitted with a Training score of almost 0.94 and a testing score of <0.75
 
-![plot](images/performance.png)
-
-![plot] <comparing graphs>
-
-It should be noted that the XGBClassifier was trained on a subset of the dataset, because of the computational requirements involved. Unlike with Tensorflow's `PrefetchBatch` method of streaming large data, there is no way (that I know) of optimizing the data fed into the SKLearn machine learning models. 
+![plot](images/performance.png) 
 
 ## Challenges
 * Mislabelled data. 
