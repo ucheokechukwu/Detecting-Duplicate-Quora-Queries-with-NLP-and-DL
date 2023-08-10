@@ -1,4 +1,4 @@
-# mini-project-V
+# Detecting Duplicate Quora Questions with Natural Language Processing & Deep Learning
 
 The purpose of this project is to identify duplicate questions on Quora.com. A dataset of over 400K labelled pairs of questions was provided and the objective was to build a Binary Classifer that would correctly classify each pair as duplicates of each other or not. This is an NLP problem and an opportunity to showcase Deep Learning skills.
 
